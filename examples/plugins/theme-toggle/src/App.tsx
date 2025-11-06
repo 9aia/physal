@@ -21,7 +21,7 @@ function App() {
   });
 
   return (
-    <div class="flex flex-col items-center justify-center h-screen gap-4">
+    <div class="flex flex-col items-center justify-center h-screen gap-4 bg-yellow-500/20">
       <h1 class="text-2xl font-bold">
         Theme: {theme()}
       </h1>

@@ -95,9 +95,8 @@ function App() {
   console.log("Hello world App component setup");
 
   return (
-
     <QueryClientProvider client={queryClient}>
-      <div class="flex flex-col items-center justify-center h-full gap-4 p-4">
+      <div class="flex flex-col items-center justify-center h-full gap-4 p-4 bg-white">
         <ThemedText />
         <RandomNumberSender />
         <Counter />

@@ -40,6 +40,11 @@ const loadPlugins = async (pluginsToInstall: PluginToInstall[], options?: LoadPl
       const iframe = document.createElement('iframe');
       iframe.src = pluginJson.url;
       iframe.id = `iframe-plugin-${pluginJson.name}`;
+      iframe.style.backgroundColor = 'transparent';
+      iframe.style.width = '100%';
+      iframe.style.height = '100%';
+      iframe.sandbox.add('allow-scripts');
+      iframe.sandbox.add('allow-same-origin'); // TODO: remove this on production
 
       const plugin: LoadedPlugin = {
         name: pluginJson.name,
