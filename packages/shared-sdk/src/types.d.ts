@@ -1,12 +1,17 @@
-import type { MaybePromise } from "plugin-sdk";
+import { MaybePromise } from "./lib/ts";
 
-export type PluginJson = {
+export type PluginManifest = {
   name: string;
   version?: string;
   description?: string;
   author?: string;
   license?: string;
   dependencies?: Record<string, string>;
+}
+
+export type PluginToInstall = {
+  name: string;
+  version: string;
 }
 
 // --- Core Message & Handler Types ---

@@ -4,12 +4,13 @@
   "workspaces": [
     "packages/*",
     "examples/plugins/*",
-    "examples/apps/*"
+    "examples/bootloaders/*",
+    "examples/pcrs/*"
   ],
   "scripts": {
-    "install": "bun install --filter='./packages/*' --filter='./examples/plugins/*' --filter='./examples/apps/*'",
-    "dev": "bun run --filter='./examples/apps/*' --filter='./examples/plugins/*' dev",
-    "build": "bun run --filter='./examples/apps/*' build",
-    "preview": "bun run --filter='./examples/apps/*' preview"
+    "install": "bun install --filter='./packages/*' --filter='./examples/plugins/*' --filter='./examples/bootloaders/*' --filter='./examples/pcrs/*'",
+    "dev": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' dev",
+    "build": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' build",
+    "preview": "bun run --filter='./examples/bootloaders/*' --filter='./examples/plugins/*' --filter='./examples/pcrs/*' preview"
   }
 }

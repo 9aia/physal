@@ -1,0 +1,10 @@
+[
+  {
+    "name": "hello-world",
+    "version": "^1.0.0"
+  },
+  {
+    "name": "theme-toggle",
+    "version": "^1.0.0"
+  }
+]

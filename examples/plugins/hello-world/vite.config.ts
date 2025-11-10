@@ -1,10 +1,12 @@
-import tailwindcss from '@tailwindcss/vite'
-import { defineConfig } from 'vite'
-import solid from 'vite-plugin-solid'
+import { defineConfig } from 'vite';
 
 export default defineConfig({
-  plugins: [
-    tailwindcss(),
-    solid(),
-  ],
-})
+  build: {
+    lib: {
+      entry: 'src/index.tsx',
+      formats: ['es'],
+      fileName: () => 'index.js',
+    },
+    outDir: 'dist',
+  },
+});

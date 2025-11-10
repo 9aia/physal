@@ -2,7 +2,7 @@ import type { HandlerFn, PendingRequest, RequestMessage, ResponseMessage, EventM
 import type { PluginConfig, PluginSDK } from '../types.d.ts';
 
 /**
- * Creates a Plugin SDK for an iframe.
+ * Creates a Plugin instance for a plugin module.
  * Automatically namespaces handlers and routes requests to the parent.
  */
 export function createPlugin({ namespace, parentOrigin }: PluginConfig): PluginSDK {

@@ -1,0 +1,17 @@
+{
+  "name": "pcr-sdk",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {
+    "@n1ru4l/toposort": "^0.0.1",
+    "shared-sdk": "workspace:*",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}

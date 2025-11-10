@@ -1,8 +1,13 @@
 # TODO
 
+- Refactor event system to use our internal typed lib
+  - Expose all the event emitters as a wrapper around that typed lib
+- Pre-render bootloader static parts and then hydrate the dynamic parts
+
 - Setup linter and formatter
 - Setup typechecker
 - Update docs and README.md
+
 - Move app devtools to another repo
 
 - Validating version already installed for joining a server that needs a specific version of a plugin

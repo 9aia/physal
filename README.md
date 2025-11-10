@@ -27,7 +27,7 @@ SDK enables this through a secure plugin architecture:
 # Install dependencies
 bun install
 
-# Start application and plugins
+# Start bootloader, CPR and plugins
 bun dev
 ```
 
