@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["../../runtimes/server-only-wasm/src/types/server-only.d.ts"],
+    "skipLibCheck": true
+  }
+}
+

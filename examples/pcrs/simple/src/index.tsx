@@ -2,7 +2,7 @@
 console.log("App Plugin System index.tsx loaded");
 
 import type { PluginToInstall } from 'shared-sdk';
-import { loadPlugins } from 'pcr-sdk';
+import { loadPlugins } from 'p'cr-sdk';
 import './index.css'
 import { pcr } from './pcr';
 

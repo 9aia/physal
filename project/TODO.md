@@ -1,5 +1,16 @@
 # TODO
 
+- Plugin system
+- Permission system
+- ECS
+- Event system
+- Physics system
+- Render system
+- Audio system
+- Config system
+- Command system
+- UI & HUD
+
 - Refactor event system to use our internal typed lib
   - Expose all the event emitters as a wrapper around that typed lib
 - Pre-render bootloader static parts and then hydrate the dynamic parts
